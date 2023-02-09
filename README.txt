@@ -1,4 +1,8 @@
+rustup target add armv7a-none-eabi
 
+cargo new my_embedded_rust
+
+cargo build
 
 cargo rustc -- -C link-arg=--script=./linker.ld
 
